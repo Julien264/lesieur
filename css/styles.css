@@ -46,9 +46,136 @@ h3{
     font-weight: normal;
 
     margin:10px 0;
+
+    text-align: center;
 }
+
 
 /*-----------------------------------------------------------
 COMPONENTS
 ------------------------------------------------------------*/
 
+/*wrapper*/
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+/*header*/
+
+.header{
+    background-color: #f26c25;
+
+    color: white;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap:40px;
+
+    list-style-type: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/*hero*/
+
+.hero{
+    padding:80px 0;
+
+    background-color: #eeeeee;
+}
+
+/*Titre-transport*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #eeeeee;
+    padding: 20px;
+
+    margin-bottom: 60px;
+}
+
+.transports{
+    padding: 80px, 0;
+}
+
+.conteneur-transports{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.transports p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*Footer*/
+
+.menu-social a{
+    display:block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-social{
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+}
+
+.footer{
+    background-color: #000000;
+    color: white;
+}
+
+.facebook a:hover{
+    background-color: #1877f2;
+}
+
+.twitter a:hover{
+    background-color: #1da1f2;
+}
+
+.linkedin a:hover{
+    background-color: #0a66c2;
+}
+
+/*Aide stylistique*/
+
+.conteneur-transports-invisible{
+    display:none;
+}
